@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Nunito",sans-serif;  
+    background-image: url("weather.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input{
+    text-align: center;
+    margin: 100px 0
+}
+input[type="text"]{
+    height: 50px;
+    width:600px;
+    padding: 10px 10px;
+    background: black;
+    color:ghostwhite;
+    opacity: 0.5;
+    /* background:transparent; */
+    font-family: bold ;
+    font-size: 20px;
+    border:none;
+    border-radius: 2px;
+}
+input[type="submit"]{
+    margin-top: 10px;
+    height: 50px;
+    width:600px;
+    background: grey;
+    font-family: bold ;
+    font-size: 20px;
+    border:none;
+    border-radius: 2px;
+    background-color:lightgray;
+}
+.display{
+    background-color: grey;
+    opacity: .9;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 100px;
+    text-align: center;
+    border:3px solid black;
+    border-radius: 5px;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+.nav{
+border-bottom: lightblue 3px solid;
+background-color: black;
+color:lightblue;
+font-size: 50px;
+font-family: 'Merienda One', cursive;
+text-align:center;
+padding: 30px;
+opacity: 0.9;
+}
+footer{
+padding: 30px;
+font-size: 15px;
+text-align: center;
+color: lightgrey;
+background-color: black;
+opacity: 0.8;
+}
