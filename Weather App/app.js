@@ -16,11 +16,15 @@ console.log(nameValue);
 var tempValue=Math.floor(data['main']['temp']-273);
 var descValue=data['weather'][0]['description'];
 var Humidity=data.main.humidity;
+var backImage=data.weather[0].icon;
+let locationIcon = document.querySelector('.weather-icon');
+const {icon} = data.weather[0];
+locationIcon.innerHTML=`<img src="icons/${icon}.png"></img>`;
 name.innerHTML=nameValue;
 temp.innerHTML="Temprature : "+tempValue+" °C";
 desc.innerHTML="Weather is " + descValue;
-hum.innerHTML="Humidity is " + Humidity+"%";
-wind.innerHTML="Wind Speed " + data.wind.speed;
+hum.innerHTML="Humidity is : " + Humidity+"%";
+wind.innerHTML="Wind Speed : " + data.wind.speed +" km/hr";
 })
 .catch(err=>alert('Wrong City Name'))
 })
