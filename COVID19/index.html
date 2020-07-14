@@ -5,28 +5,19 @@
     <title>WebGL Earth API v2: Animation</title>
    </head>
 
-<!-- this is intialize the body and globe when body loadede-->
 <body onload="initialize()" >
-  <!-- thhis is teh full container -->
  <div class="container-fluid window-full" >
 
-  <!-- this is ued to make two column and kept in a row -->
   <div class="row">
-        
-        <!-- this is the frst column -->
-        <!-- in this column we just assign the earth object  -->
+
         <div class="col-6 " style="background-image: url('black.jpeg');background-size: cover;">
         <div  id="earth_div" style="height: 900px;" >
         </div>
         </div>
 
-        <!-- this is the second column -->
       <div class="col-6" >
-<!-- style="  background-image: url('4.jpg');background-size: cover;" -->
-        <!-- this is heading of page in block -->
-        <button type="button" class="btn btn-primary btn-lg btn-block" style="height: 100px;"><h3 class="display-5">CoronaVirus-Epidemic</h3> </button>
 
-        <!--this is the section in which the list of all countries are present -->
+        <button type="button" class="btn btn-primary btn-lg btn-block" style="height: 100px;"><h3 class="display-5">CoronaVirus-Epidemic</h3> </button>
         <div class="my-3" align="center" id="selection-div">
           <select id="selection" name="selection">  
               <option class="selection-option" disabled="">Worldwide</option>
@@ -227,9 +218,7 @@
           </select>
 
           </div>
-        
-        
-        <!-- this is area of option like animate stop global -->
+ 
         <div align="center">
         <button id="animateit" class="btn btn-success">ANIMATE</button>
         <button id="globalAnalysis" class="btn btn-danger">GLOBE ANALYSIS</button>
@@ -237,10 +226,7 @@
         <button class="btn" ><a href="https://github.com/pomber/covid19" target="_blank">Data source</a></button>
         
         </div>
-        <!-- closing of this area  -->
-
-        <!-- this is area for showing death ,recoverd ,confirmed -->
-        <!-- shadow p-3 mb-5  to give shadow-->
+      
         <div class="row my-4" style="font-size:17px;font-family:'Comic Sans MS';">
           <div class="col-4">
           <div id="confirmed" class="alert alert-primary shadow  rounded " style="background-color: #F4D03F; border:solid white 2px;">
@@ -255,10 +241,7 @@
           </div>
           <div id="countryName"  type="button" class="btn btn-outline-warning my-2" style="position: relative;left:320px;font-size: 20px;">World</div>
         </div>
-        <!-- this is the closing of the area -->
 
-
-<!-- this isthe design of the collapse which is prent when dom is laoded -->
  <style>
       .accordions {
       font-family: arial;
@@ -317,8 +300,6 @@
           margin: 0;
       }
  </style>
-
-<!-- this is the div where intially detail is prent and when we selecta country we hget the chart of that area-->
 
       <div id="chart_div" align="center">
         <div class="accordions">
@@ -392,24 +373,20 @@
 
 
     </div>
-<!-- this is the closing of the second column  -->
+
 
   </div>
-<!-- this is the clsoing of the row -->
+
   
 </div>
-<!-- this is the clsoing of the container -->
 
 </body>
 </html>
 
-<!-- first cdn is used to load char of google -->
+
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<!-- this scipt is used to get j query -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<!-- this is cdn link of bootstrap -->
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<!-- this is used to laod globe of earth -->
 <script src="https://www.webglearth.com/v2/api.js"></script>
 
 
@@ -418,18 +395,14 @@ $(document).ready(function(){
   $('#content').height($(window).height());
 });
 
-// earth is global varible for earth
+
 var earth;
 
-// this is used to get daetil of current country 
+
 var thecountryname;
 
-// this is used to laod chart and until it loaded it get spinner
 var chartdiv=document.getElementById('chart_div'); 
 
-
-
-// this world deatil function give count of all cases in the world
 let worldDeatil=function()
 {
   const urlcountrycase=`https://api.covid19api.com/world/total`;
@@ -437,9 +410,7 @@ fetch(urlcountrycase)
 .then(data=>{
   return data.json()
 }).then(res=>{
-  // console.log(res.TotalConfirmed);
-  // console.log(res.TotalDeaths);
-  // console.log(res.TotalRecovered);
+
   let confirmed=document.getElementById('confirmed');
   let recoverd=document.getElementById('recoverd');
   let death=document.getElementById('death');
