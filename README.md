@@ -7,12 +7,12 @@
 
 I am Suyash. I am from Vellore,Tamil Nadu and currently doing my B.Tech from Vellore Institute of Technology 🏫.I love to do web development and open to learning new technologies.
 
-## 💻 Projects 
-* [COVID 19 TRACKER] (Graph Display and Clickable Globe UI) (https://suyash-srivastava.github.io/suyashsrivastava/COVID)
-* [Weather App] (from OpenWeather API)(https://suyash-srivastava.github.io/suyashsrivastava/Weather)
+## 💻 Projects
+* [COVID 19 TRACKER (Graph Display and Clickable Globe UI)](https://suyash-srivastava.github.io/suyashsrivastava/COVID)
+* [Weather App (from OpenWeather API)](https://suyash-srivastava.github.io/suyashsrivastava/Weather)
 * [Notes App](https://suyash-srivastava.github.io/suyashsrivastava/Notes)
-* [Website for NGO] (In Development Phase)(https://suyash-srivastava.github.io/suyashsrivastava/Suyash)
-* [Portfolio] (https://suyash-srivastava.github.io/suyashsrivastava/Suyash)
+* [Website for NGO (In Development Phase)](https://suyash-srivastava.github.io/suyashsrivastava/Suyash)
+* [Portfolio](https://suyash-srivastava.github.io/suyashsrivastava/Suyash)
 
 ## ⚡ Technologies 
 - Front-end development using **HTML, Javascript,CSS,Bootstrap**
