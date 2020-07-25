@@ -27,4 +27,4 @@ I am Suyash. I am from Vellore,Tamil Nadu and currently doing my B.Tech from Vel
 - 🖼️ Portfolio site: [Portfolio](https://suyash-srivastava.github.io/suyashsrivastava/Suyash)
 - 💎 Fun fact: You lose automatically if you dont try.
 
-![Suyash github stats](https://github-readme-stats.vercel.app/api?username=suyashsrivastava&hide=["issues"]&show_icons=true)
+![Suyash github stats](https://github-readme-stats.vercel.app/api?username=Suyash-Srivastava&hide=["issues"]&show_icons=true)
