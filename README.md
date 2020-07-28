@@ -18,7 +18,7 @@ I am Suyash. I am from Vellore,Tamil Nadu and currently doing my B.Tech from Vel
 - Front-end development using **HTML, Javascript,CSS,Bootstrap**
 - Backend development using **SQL,PHP**
 - Worked with **Active Directories**
-- Leaning Web Design with **Figma**
+- Learning Web Design with **Figma**
 - Android app development using **Android Studio**(Still learning)
 - Solving Data structure and algorithm questions in **Java**
 
